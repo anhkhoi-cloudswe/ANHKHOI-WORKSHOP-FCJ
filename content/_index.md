@@ -10,23 +10,23 @@ chapter: false
 
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Minh Huan
+&emsp; **Full Name:** Nguyen Hoang Anh Khoi
 
-&emsp; **Phone Number:** 0972785404 
+&emsp; **Phone Number:** 0337564618 
 
 &emsp; **Email:** minhhuan.study@gmail.com
 
 &emsp; **University:** FPT University HCMC
 
-&emsp; **Major:** Information Assurance
+&emsp; **Major:** Software Engineering
 
-&emsp; **Student ID:** SE196280
+&emsp; **Student ID:** SE194466
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
 &emsp; **Internship Position:** FCJ Cloud Intern
 
-&emsp; **Internship Duration:** From 01/05/2026 to 04/05/2026
+&emsp; **Internship Duration:** From 05/01/2026 to 05/04/2026
 
 ![Your profile picture](/images/avatar.png)
 

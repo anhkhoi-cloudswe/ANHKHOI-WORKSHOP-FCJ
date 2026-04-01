@@ -7,30 +7,34 @@ pre: " <b> 1. </b> "
 ---
 
 
-**On this page**, you will find the weekly worklog documenting the learning journey over **13 weeks** (Jan 5 – Apr 5, 2026), covering AWS infrastructure services from foundational networking to AI-powered applications.
+**On this page**, you will find the weekly worklog documenting the learning journey over **13 weeks** (Jan 5 – Apr 5, 2026), covering AWS infrastructure services from foundational networking to AI-powered applications with FPT Event Management System development.
 
-**Week 1:** [AWS Basics & VPC Foundations](1.1-week1/)
+## AWS Cloud Journey (Weeks 1-4)
 
-**Week 2:** [VPC Advanced (NAT Gateway, VPC Endpoints, Peering)](1.2-week2/)
+**Week 1:** [AWS Basics & Account Setup](1.1-week1/) - AWS Account, Budgets, Support, IAM
 
-**Week 3:** [EC2 Foundations (AMI, EBS)](1.3-week3/)
+**Week 2:** [VPC & EC2 Compute Foundations](1.2-week2/) - VPC Networking, EC2 Instances, IAM Roles
 
-**Week 4:** [EC2 Advanced & Auto Scaling](1.4-week4/)
+**Week 3:** [Storage, Database & DNS](1.3-week3/) - S3 Static Website, RDS Database, Route 53 DNS
 
-**Week 5:** [Load Balancer (ALB, NLB, Target Groups)](1.5-week5/)
+**Week 4:** [Lightsail, Containers & Auto Scaling](1.4-week4/) - Lightsail, Docker, Auto Scaling, CloudWatch
 
-**Week 6:** [ECS Part 1 – Docker Basics & ECR](1.6-week6/)
+## FPT Event Management System Development (Weeks 5-13)
 
-**Week 7:** [ECS Part 2 – Task Definitions & Fargate](1.7-week7/)
+**Week 5:** [Microservices Architecture Design](1.5-week5/) - Design Microservices, Go & Docker Setup, AWS Infrastructure
 
-**Week 8:** [API Gateway Foundations (REST/HTTP APIs)](1.8-week8/)
+**Week 6:** [Auth Service & IAM Role Integration](1.6-week6/) - JWT Authentication, IAM Roles, API Gateway
 
-**Week 9:** [API Gateway Advanced (Integrations)](1.9-week9/)
+**Week 7:** [Event Service & Venue Service Development](1.7-week7/) - Event CRUD Operations, Venue Management
 
-**Week 10:** [CloudFront (CDN, OAC, Behaviors)](1.10-week10/)
+**Week 8:** [Ticket Service & Wallet Service with Saga Pattern](1.8-week8/) - Distributed Transactions, Saga Pattern, Payment Processing
 
-**Week 11:** [Bedrock Agent Core 1 – Intro to GenAI & Foundation Models](1.11-week11/)
+**Week 9:** [Notification Service & Email Integration](1.9-week9/) - AWS SES, PDF Generation, Email Delivery
 
-**Week 12:** [Bedrock Agent Core 2 – Knowledge Bases & RAG](1.12-week12/)
+**Week 10:** [Frontend Development & Data Synchronization](1.10-week10/) - React Frontend, Real-time Data Sync
 
-**Week 13:** [Bedrock Agent Core 3 – Building an Agent & Final Review](1.13-week13/)
+**Week 11:** [Smoke Testing & Time Travel Validation](1.11-week11/) - Test Automation, Time Travel Testing, Timezone Handling
+
+**Week 12:** [Security Fixes & Timezone Bug Resolution](1.12-week12/) - Security Patches, Timezone Bug Fixes, Checkout Optimization
+
+**Week 13:** [Technical Report & Project Submission](1.13-week13/) - Documentation, Code Cleanup, Project Submission

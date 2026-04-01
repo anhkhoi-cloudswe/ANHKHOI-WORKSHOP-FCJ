@@ -1,32 +1,65 @@
 ---
-title: "Worklog Tuần 3"
+title: "Tuần 3: Storage, Database & DNS"
 date: 2026-01-19
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### Mục tiêu tuần 3:
+## Tổng quan
+Tuần 3 bao gồm ba dịch vụ AWS quan trọng cho quản lý dữ liệu: S3 cho lưu trữ object và hosting trang web tĩnh, RDS cho cơ sở dữ liệu quan hệ, và Route 53 cho quản lý DNS.
 
-* Hiểu các loại EC2 instance, tùy chọn mua và quản lý vòng đời.
-* Tạo và quản lý Amazon Machine Images (AMI) như template máy chủ tái sử dụng.
-* Làm việc với Amazon EBS: loại volume, snapshot, mã hóa và thay đổi kích thước.
+## Danh sách công việc
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------- | ------------ | --------------- | -------------- |
-| 2   | - Học các họ EC2 instance: General Purpose (t/m), Compute (c), Memory (r/x), Storage (i/d) <br> - So sánh giá On-Demand vs Reserved vs Spot vs Savings Plans | 19/01/2026 | 19/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Tìm hiểu AMI: public, private và AWS Marketplace AMIs <br> - Hiểu vòng đời AMI: tạo, chia sẻ, sao chép sang region khác <br> - **Thực hành:** Khởi chạy EC2 với user data bootstrap script | 20/01/2026 | 20/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - **Thực hành:** <br>&emsp; + Cấu hình EC2 instance (cài Nginx, thiết lập trang web) <br>&emsp; + Tạo custom AMI từ instance đang chạy <br>&emsp; + Khởi chạy instance mới từ custom AMI và kiểm tra | 21/01/2026 | 21/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu loại EBS volume: gp3, io2 Block Express, st1, sc1 <br> - Hiểu EBS Multi-Attach, mã hóa (KMS) và Lifecycle Manager <br> - Nghiên cứu sự đánh đổi giữa EBS và Instance Store | 22/01/2026 | 22/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Gắn & format EBS gp3 volume mới vào EC2 <br>&emsp; + Tạo EBS snapshot và khôi phục sang volume mới <br>&emsp; + Mở rộng volume online (không cần downtime) | 23/01/2026 | 23/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
+### Ngày 2: Nền tảng S3 & Static Web Hosting
+- Tạo S3 buckets với naming conventions
+- Cấu hình bucket policies và access control
+- Kích hoạt Static Website Hosting trên S3
+- Upload và tổ chức static content
 
-### Kết quả đạt được tuần 3:
+### Ngày 3: Cấu hình S3 Nâng cao
+- Cấu hình CORS
+- Thiết lập CloudFront distribution với S3 origin
+- Triển khai S3 versioning và lifecycle policies
+- Cấu hình S3 encryption
 
-* Hiểu các họ EC2 instance và chọn đúng loại cho từng workload.
-* So sánh On-Demand, Reserved, Spot và Savings Plans để tìm chiến lược tiết kiệm chi phí.
-* Tạo custom AMI từ EC2 đã cấu hình và khởi chạy server giống hệt từ đó.
-* Gắn, format và mount EBS volume; mở rộng volume không gián đoạn.
-* Tạo EBS snapshot và khôi phục dữ liệu thành công sang volume mới.
-* Hiểu sự khác biệt giữa EBS (persistent) và Instance Store (ephemeral).
-* ...
+### Ngày 4: Nền tảng RDS Database
+- Tạo RDS instances (MySQL, PostgreSQL)
+- Hiểu về DB subnet groups
+- Cấu hình Multi-AZ deployment
+- Thiết lập automated backups
+
+### Ngày 5: RDS Nâng cao & Quản lý Database
+- Tạo read replicas
+- Cấu hình database security groups
+- Hiểu về connection pooling
+- Triển khai database monitoring
+
+### Ngày 6: Route 53 DNS & Domain Management
+- Đăng ký domain trong Route 53
+- Tạo hosted zone và DNS records
+- Thiết lập health checks
+- Cấu hình alias records
+- Triển khai routing policies
+
+## Thành tích đạt được
+✅ Triển khai thành công trang web tĩnh trên S3 với CloudFront distribution
+✅ Thiết lập cơ sở hạ tầng RDS có tính khả dụng cao với Multi-AZ
+✅ Triển khai cơ sở hạ tầng DNS sử dụng Route 53
+✅ Cấu hình S3 lifecycle policies cho tối ưu hóa chi phí
+✅ Kích hoạt end-to-end encryption cho dữ liệu
+✅ Tạo chiến lược automated backup cho database resilience
+
+## Tài nguyên sử dụng
+- AWS S3 Console
+- RDS Database Console
+- Route 53 Hosted Zones
+- CloudFront Distribution Manager
+- AWS Certificate Manager (ACM)
+
+## Ghi chú
+- Tên S3 bucket phải là duy nhất trên toàn AWS
+- Multi-AZ RDS cung cấp synchronous replication
+- Route 53 hỗ trợ nhiều routing policies
+- Luôn triển khai lifecycle policies cho S3
+- Database backups nên được giữ theo yêu cầu compliance

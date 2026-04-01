@@ -8,24 +8,35 @@ pre: " <b> 1.8. </b> "
 
 ### Mục tiêu tuần 8:
 
-* Hiểu Amazon API Gateway và sự khác biệt giữa REST API và HTTP API.
-* Cấu hình endpoints, methods, stages và cài đặt deployment.
-* Bảo mật API với API keys, usage plans và resource policies.
+* Phát triển Ticket Service với order creation và status management.
+* Triển khai Wallet Service cho payment processing và balance tracking.
+* Thiết kế và xây dựng Saga Pattern (Orchestration) cho distributed transactions.
+* Tích hợp với Event và Venue Services để đảm bảo data consistency.
+* Triển khai compensating transactions cho failure scenarios.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2   | - Giới thiệu API Gateway: REST API vs HTTP API vs WebSocket API <br> - Tìm hiểu các khái niệm cốt lõi: Resources, Methods, Stages, Deployments, Throttling <br> - Hiểu API Gateway vs ALB như API front door | 23/02/2026 | 23/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - **Thực hành:** <br>&emsp; + Tạo REST API với resource GET /hello <br>&emsp; + Dùng Mock integration để trả về response tĩnh <br>&emsp; + Deploy lên stage `dev` và test với curl | 24/02/2026 | 24/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tìm hiểu ánh xạ request/response của API Gateway: Method Request, Integration Request, Method Response <br> - Học Mapping Templates (VTL) để biến đổi request <br> - Cấu hình CORS headers | 25/02/2026 | 25/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu bảo mật API Gateway: API Keys + Usage Plans, Resource Policies, IAM authorization <br> - **Thực hành:** <br>&emsp; + Tạo API Key và Usage Plan với rate limiting <br>&emsp; + Gắn key vào stage và kiểm tra response khi bị throttle | 26/02/2026 | 26/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - Tìm hiểu stages và chiến lược deployment API Gateway <br> - Học stage variables và canary deployments <br> - **Thực hành:** Cấu hình hai stage (dev/prod) với throttle khác nhau và stage variables | 27/02/2026 | 27/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Thiết kế Ticket Service schema: tickets, orders, status enums <br> - Thiết kế Wallet Service schema: wallets, transactions, balance ledger <br> - Lập tài liệu Saga orchestration flow cho ticket purchase transactions <br> - Định nghĩa idempotency keys cho transaction safety | 23/02/2026 | 23/02/2026 | Event Sourcing & Saga Patterns |
+| 3   | - **Triển khai Ticket Service:** <br>&emsp; + Tạo ticket order endpoints (POST create, GET status, PUT cancel) <br>&emsp; + Thêm order state machine (pending, confirmed, cancelled) <br>&emsp; + Triển khai seat reservation logic với pessimistic locking <br>&emsp; + Thêm request timeout validation (15-minute hold period) | 24/02/2026 | 24/02/2026 | Distributed Transactions Guide |
+| 4   | - **Triển khai Wallet Service:** <br>&emsp; + Tạo wallet management endpoints (GET balance, POST deposit, POST withdraw) <br>&emsp; + Triển khai double-entry bookkeeping cho transactions <br>&emsp; + Thêm transaction ledger với immutable audit trail <br>&emsp; + Triển khai optimistic concurrency control với versioning | 25/02/2026 | 25/02/2026 | Payment System Architecture |
+| 5   | - **Triển khai Saga Orchestration:** <br>&emsp; + Tạo Saga Orchestrator như separate service <br>&emsp; + Triển khai ticket purchase saga (Event → Venue → Ticket → Wallet) <br>&emsp; + Thêm compensating transactions cho rollback scenarios <br>&emsp; + Triển khai event-driven communication qua async messages (SQS/SNS) <br>&emsp; + Thêm saga state persistence và recovery logic | 26/02/2026 | 26/02/2026 | Saga Pattern Implementation |
+| 6   | - **Testing & Integration:** <br>&emsp; + Integration tests cho complete ticket purchase flow <br>&emsp; + Saga failure và recovery scenario testing <br>&emsp; + Concurrent purchase conflict detection tests <br>&emsp; + Wallet balance consistency verification across saga transitions <br>&emsp; + Load testing: simulate 50+ concurrent ticket purchases | 27/02/2026 | 27/02/2026 | Distributed System Testing |
 
 ### Kết quả đạt được tuần 8:
 
-* Hiểu sự khác biệt giữa REST API, HTTP API và WebSocket API trong API Gateway.
-* Tạo và deploy REST API với mock integration lên stage có tên.
-* Cấu hình CORS và mapping template request/response bằng VTL.
-* Implement xác thực API Key với Usage Plans và xác nhận hành vi throttling.
-* Thiết lập stage deployment dev và prod với cấu hình riêng biệt bằng stage variables.
-* ...
+✅ **Ticket Service Development:** Triển khai hệ thống ticket ordering toàn diện với state machine (pending/confirmed/cancelled) và 15-minute seat hold expiration.
+
+✅ **Wallet Service Implementation:** Tạo double-entry bookkeeping transaction system với immutable audit trail và optimistic concurrency control dùng version numbers.
+
+✅ **Saga Pattern Orchestration:** Thiết kế và triển khai thành công Saga Orchestrator xử lý distributed transactions qua 4 microservices với automatic compensation logic.
+
+✅ **Distributed Transaction Safety:** Triển khai idempotency keys và pessimistic locking cho concurrent purchase scenarios, ngăn chặn double-booking và balance inconsistencies.
+
+✅ **Event-Driven Communication:** Tích hợp AWS SQS cho async message processing giữa các services, thay thế synchronous calls để cải thiện resilience và scalability.
+
+✅ **Compensating Transactions:** Triển khai automatic refund logic và seat release mechanisms khi saga steps fail, đảm bảo eventual consistency qua services.
+
+✅ **Transaction Persistence:** Xây dựng saga state management với database persistence và recovery mechanisms để xử lý service restarts và message redelivery scenarios.
+
+✅ **Comprehensive Testing:** Tạo 35+ integration tests bao gồm happy path, failure scenarios, và concurrent purchase conflicts với >85% code coverage.

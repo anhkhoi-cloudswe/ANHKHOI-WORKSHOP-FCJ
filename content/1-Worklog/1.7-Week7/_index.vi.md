@@ -8,25 +8,25 @@ pre: " <b> 1.7. </b> "
 
 ### Mục tiêu tuần 7:
 
-* Hiểu kiến trúc Amazon ECS: clusters, services, tasks và task definitions.
-* Cấu hình ECS Task Definitions với container definitions, giới hạn tài nguyên và IAM roles.
-* Triển khai workload container hóa trên AWS Fargate (serverless data plane).
+* Phát triển Event Service với CRUD operations và business logic.
+* Triển khai Venue Service với capacity management và booking logic.
+* Tích hợp cả hai services với database và Auth Service validation.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2   | - Tìm hiểu kiến trúc ECS: Clusters, Services, Tasks, Task Definitions <br> - So sánh ECS launch types: EC2 vs Fargate vs ECS Anywhere <br> - Hiểu sự đánh đổi giữa ECS và EKS | 16/02/2026 | 16/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Tìm hiểu cấu trúc ECS Task Definition: container definitions, CPU/memory, port mappings, biến môi trường, secrets (SSM/Secrets Manager) <br> - Hiểu sự khác biệt Task Role và Task Execution Role | 17/02/2026 | 17/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - **Thực hành:** <br>&emsp; + Tạo ECS Cluster (Fargate) <br>&emsp; + Tạo Task Definition dùng ECR image từ tuần 6 <br>&emsp; + Chạy standalone task và xem logs trong CloudWatch | 18/02/2026 | 18/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu ECS Services: desired count, chiến lược deployment (Rolling, Blue/Green), circuit breaker <br> - **Thực hành:** <br>&emsp; + Tạo ECS Service (Fargate) phía sau ALB <br>&emsp; + Cấu hình service auto-scaling theo CPU | 19/02/2026 | 19/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - Tìm hiểu ECS networking: awsvpc mode, Security Groups per task <br> - **Thực hành:** <br>&emsp; + Cập nhật task dùng awsvpc networking <br>&emsp; + Deploy task definition revision mới qua rolling update <br>&emsp; + Xác nhận zero-downtime deployment | 20/02/2026 | 20/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Thiết kế Event Service schema: events table, bookings, status tracking <br> - Thiết kế Venue Service schema: venues, capacities, availability <br> - Lập kế hoạch API contracts và database relationships | 16/02/2026 | 16/02/2026 | Database Design Patterns |
+| 3   | - **Triển khai Event Service:** <br>&emsp; + Tạo endpoints cho events (GET all, GET by ID, POST, PUT, DELETE) <br>&emsp; + Thêm event filtering và pagination <br>&emsp; + Triển khai event status management | 17/02/2026 | 17/02/2026 | Go CRUD API Patterns |
+| 4   | - Triển khai Venue Service CRUD operations <br> - Thêm venue capacity management và validation <br> - Triển khai availability check logic trước booking | 18/02/2026 | 18/02/2026 | Go Database Integration |
+| 5   | - **Tích hợp với Auth Service:** <br>&emsp; + Thêm JWT middleware vào cả hai services <br>&emsp; + Triển khai authorization checks <br>&emsp; + Thêm audit logging cho business operations | 19/02/2026 | 19/02/2026 | Service Integration Patterns |
+| 6   | - **Testing & Optimization:** <br>&emsp; + Integration tests giữa Event & Venue Services <br>&emsp; + Database query optimization (indexing) <br>&emsp; + Load testing với 100 concurrent requests | 20/02/2026 | 20/02/2026 | Testing & Optimization Guide |
 
 ### Kết quả đạt được tuần 7:
 
-* Hiểu các thành phần ECS: clusters, services, task definitions và tasks.
-* Tạo ECS Task Definition tham chiếu ECR image với IAM execution role phù hợp.
-* Triển khai ứng dụng container hóa trên Fargate và xem logs trong CloudWatch Logs.
-* Tạo ECS Service tích hợp ALB và xác nhận routing traffic đến containers.
-* Cấu hình ECS Service Auto Scaling dựa trên CPU utilization.
-* Thực hiện rolling deployment update không gián đoạn với ECS circuit breaker.
-* ...
+* Thiết kế và triển khai Event Service với complete CRUD operations và event lifecycle management.
+* Phát triển Venue Service với capacity tracking và real-time availability checking.
+* Tích hợp JWT authentication vào cả hai services với proper authorization enforcement.
+* Triển khai database indexes cho optimal query performance trên event và venue lookups.
+* Tạo comprehensive unit và integration tests đạt >80% code coverage.
+* Xử lý thành công 100+ concurrent requests với sub-100ms response times.
+* Chuẩn bị cả hai services cho Ticket Service integration trong Tuần 8.

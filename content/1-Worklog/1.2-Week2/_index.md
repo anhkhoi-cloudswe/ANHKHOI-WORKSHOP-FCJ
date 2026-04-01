@@ -1,32 +1,62 @@
 ---
-title: "Week 2 Worklog"
+title: "Week 2: VPC & EC2 Compute Foundations"
 date: 2026-01-12
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Week 2 Objectives:
+## Overview
+Week 2 focuses on networking and compute services - the backbone of AWS cloud infrastructure. This week covers VPC setup, EC2 instances, and IAM role integration for service authentication.
 
-* Enable private subnet instances to securely access the internet via NAT Gateway.
-* Connect AWS services privately without public internet using VPC Endpoints.
-* Link multiple VPCs together using VPC Peering.
+## Tasks
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| 2 (Mon) | - Review Week 1 VPC setup <br> - Learn NAT Gateway vs NAT Instance: differences in cost, availability, and management | 01/12/2026 | 01/12/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 (Tue) | - **Practice:** <br>&emsp; + Create a NAT Gateway in the public subnet <br>&emsp; + Update private route table to route 0.0.0.0/0 → NAT Gateway <br>&emsp; + Verify internet access from private EC2 instance | 01/13/2026 | 01/13/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 (Wed) | - Learn VPC Endpoints: Interface Endpoint vs Gateway Endpoint <br> - Understand use cases: S3, DynamoDB (Gateway), SSM, ECR (Interface) <br> - Study endpoint policies | 01/14/2026 | 01/14/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 (Thu) | - **Practice:** <br>&emsp; + Create a Gateway Endpoint for S3 <br>&emsp; + Access S3 from private subnet without internet routing <br>&emsp; + Create Interface Endpoint for SSM & test session manager | 01/15/2026 | 01/15/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 (Fri) | - Learn VPC Peering: concepts, CIDR requirements, route table updates <br> - Understand transitive peering limitation & AWS Transit Gateway overview <br> - **Practice:** Peer two VPCs & test cross-VPC EC2 connectivity | 01/16/2026 | 01/16/2026 | <https://cloudjourney.awsstudygroup.com/> |
+### Day 2: VPC Networking Basics
+- Create Virtual Private Cloud (VPC) with custom CIDR blocks
+- Configure Public and Private Subnets
+- Setup Internet Gateway (IGW)
+- Configure Route Tables for subnet routing
 
-### Week 2 Achievements:
+### Day 3: Advanced VPC Networking
+- Create and configure NAT Gateway for private subnet internet access
+- Setup VPC Endpoints for AWS services
+- Understand VPC Peering concepts
+- Configure Security Groups and Network ACLs
 
-* Deployed a NAT Gateway and verified private subnet instances can reach the internet.
-* Understood cost and resilience differences between NAT Gateway and NAT Instance.
-* Created a VPC Gateway Endpoint for S3; confirmed traffic stays within the AWS network.
-* Set up an Interface Endpoint for SSM and connected to a private EC2 without a bastion host.
-* Successfully established VPC Peering between two VPCs and updated route tables accordingly.
-* Understood transitive peering limitations and when to use AWS Transit Gateway.
-* ...
+### Day 4: EC2 Instance Fundamentals
+- Launch EC2 instances (t2.micro, t2.small)
+- Understand Amazon Machine Images (AMI)
+- Configure Elastic Block Store (EBS) volumes
+- Manage instance lifecycle (start, stop, terminate)
+
+### Day 5: EC2 Advanced & Instance Profiling
+- Launch instances with custom security groups
+- Configure Elastic IPs for persistent public addresses
+- Monitor instance metrics via CloudWatch
+- Understand EC2 instance families and use cases
+
+### Day 6: IAM Roles for EC2 Services
+- Create IAM Roles for EC2 instances
+- Attach Instance Profiles to EC2
+- Configure service-to-service authentication
+- Test role-based access to AWS services (S3, DynamoDB, etc.)
+
+## Achievements
+✅ Designed and implemented secure VPC architecture with public/private subnets
+✅ Deployed EC2 instances with proper security group configuration
+✅ Established IAM Role-based EC2 service authentication
+✅ Configured autonomous NAT Gateway for private subnet outbound connectivity
+✅ Implemented VPC endpoint access patterns for AWS service integration
+✅ Validated EC2 instance profiling and CloudWatch metrics monitoring
+
+## Resources Used
+- AWS VPC Console
+- EC2 Dashboard
+- AWS IAM Management Console
+- CloudWatch Monitoring
+
+## Notes
+- VPC is the foundation of cloud network architecture
+- Always use IAM Roles instead of access keys for EC2 services
+- Security Groups are stateful; NACLs are stateless
+- Properly isolate workloads using subnets and security controls

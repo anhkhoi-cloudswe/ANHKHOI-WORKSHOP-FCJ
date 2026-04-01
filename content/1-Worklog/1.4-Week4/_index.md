@@ -1,32 +1,64 @@
 ---
-title: "Week 4 Worklog"
+title: "Week 4: Lightsail, Containers & Auto Scaling"
 date: 2026-01-26
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Week 4 Objectives:
+## Overview
+Week 4 covers simplified cloud services (Lightsail), containerization fundamentals, auto-scaling mechanisms, and monitoring strategies. These technologies form the basis for modern application deployment.
 
-* Understand advanced EC2 features: placement groups, metadata, and secure access patterns.
-* Create Launch Templates and deploy Auto Scaling Groups (ASG) with dynamic scaling policies.
-* Design a self-healing, fault-tolerant architecture using ASG lifecycle hooks.
+## Tasks
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| 2 (Mon) | - Learn EC2 placement groups: Cluster (low latency), Spread (fault isolation), Partition (distributed workloads) <br> - Study Enhanced Networking (ENA) and its performance benefits | 01/26/2026 | 01/26/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 (Tue) | - Learn EC2 Instance Metadata Service v2 (IMDSv2) and User Data <br> - **Practice:** <br>&emsp; + Query instance metadata via IMDSv2 (token-based) <br>&emsp; + Use User Data to bootstrap Nginx on launch | 01/27/2026 | 01/27/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 (Wed) | - Learn Launch Templates vs Launch Configurations (why LT is preferred) <br> - **Practice:** Create a Launch Template with: AMI, instance type, SG, key pair, user data, and tags | 01/28/2026 | 01/28/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 (Thu) | - **Practice:** <br>&emsp; + Create an Auto Scaling Group using the Launch Template <br>&emsp; + Configure min=1, max=4, desired=2 across multi-AZ <br>&emsp; + Set up Target Tracking Scaling Policy (CPU utilization 50%) | 01/29/2026 | 01/29/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 (Fri) | - Learn ASG lifecycle hooks (launching & terminating events) <br> - **Practice:** <br>&emsp; + Simulate instance failure and observe ASG auto-replacement <br>&emsp; + Trigger CPU load and watch scale-out event <br>&emsp; + Review scaling activity history | 01/30/2026 | 01/30/2026 | <https://cloudjourney.awsstudygroup.com/> |
+### Day 2: AWS Lightsail & Simplified Services
+- Create Lightsail instances
+- Understand Lightsail vs EC2 use cases
+- Deploy applications using Lightsail blueprints
+- Configure Lightsail firewall rules and networking
 
-### Week 4 Achievements:
+### Day 3: Container Fundamentals & Docker
+- Understand Docker concepts (Images, Containers, Registries)
+- Pull and run Docker containers locally
+- Understand container benefits for application deployment
+- Explore AWS Elastic Container Registry (ECR)
 
-* Understood EC2 placement group strategies and their impact on latency and fault isolation.
-* Queried instance metadata securely using IMDSv2 token-based authentication.
-* Created a versioned Launch Template covering all instance configuration parameters.
-* Deployed an ASG across multiple AZs with target tracking scaling on CPU utilization.
-* Verified ASG automatically replaces a terminated instance to maintain desired capacity.
-* Observed and analyzed scale-out events through CloudWatch metrics and ASG activity logs.
-* ...
+### Day 4: Auto Scaling Concepts & Configuration
+- Create Auto Scaling Groups (ASG)
+- Configure scaling policies (target tracking, step scaling)
+- Understand launch templates and launch configurations
+- Monitor Auto Scaling metrics and activities
+
+### Day 5: Advanced Auto Scaling & Load Balancing
+- Setup Application Load Balancer (ALB) with Auto Scaling Groups
+- Configure listener rules and target groups
+- Implement health checks for instances
+- Test auto-scaling behavior under load
+
+### Day 6: CloudWatch Monitoring & Observability
+- Create CloudWatch dashboards for metrics visualization
+- Setup CloudWatch alarms for proactive monitoring
+- Configure SNS notifications for alerting
+- Understand CloudWatch logs and log insights
+
+## Achievements
+✅ Deployed simplified applications using AWS Lightsail
+✅ Implemented containerized workload patterns with Docker integration
+✅ Established Auto Scaling Group infrastructure with dynamic capacity management
+✅ Configured Application Load Balancer with intelligent traffic distribution
+✅ Implemented comprehensive CloudWatch monitoring dashboards
+✅ Created automated alerting system with SNS notifications for infrastructure health
+
+## Resources Used
+- AWS Lightsail Console
+- Docker and Container Registries
+- Auto Scaling Management Console
+- Load Balancer Configuration
+- CloudWatch Monitoring Dashboard
+
+## Notes
+- Lightsail is ideal for simple applications with predictable workloads
+- Auto Scaling Groups require proper health check configuration
+- Load Balancer target groups must have compatible health check settings
+- CloudWatch alarms should be set based on business metrics
+- Combined with CloudFront, these services create highly available systems

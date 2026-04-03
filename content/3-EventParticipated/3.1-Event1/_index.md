@@ -6,22 +6,6 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered Cloud-Mastery 2026 workshop”
-
-#### Some event photos
-* Some photos from the workshop:
-
-![Workshop photo 1](/images/3-EventParticipated/3.1-Event1/photo-1.jpg)
-![Workshop photo 2](/images/3-EventParticipated/3.1-Event1/photo-2.jpg)
-![Workshop photo 3](/images/3-EventParticipated/3.1-Event1/photo-3.jpg)
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
-
----
 
 ## 1. Building AI Agent with Strands (Banh Cam Vinh)
 
@@ -34,6 +18,10 @@ pre: " <b> 4.1. </b> "
 ### Speaker
 
 - Banh Cam Vinh — "Building AI Agent with Strands".
+
+#### Banh Cam Vinh's speech
+
+![Workshop photo 1](/images/3-EventParticipated/3.1-Event1/photo-1.jpg)
 
 ### Key Highlights
 
@@ -72,6 +60,10 @@ pre: " <b> 4.1. </b> "
 
 - Nguyen Tuan Thinh — DevOps Engineer, First Cloud AI Journey.
 
+#### Nguyen Tuan Thinh's speech
+
+![Workshop photo 2](/images/3-EventParticipated/3.1-Event1/photo-2.jpg)
+
 ### Key Highlights
 
 - "Generic prompts → Generic outputs": a strong prompt includes **Role**, **Instruction**, **Context**, **Input Data**, **Output Format**, **Examples**, **Constraints**.
@@ -108,6 +100,10 @@ pre: " <b> 4.1. </b> "
 
 - Aiden Dinh — Katalon Operation Engineer, "AI-Powered Projects – AIoT Project: Locker Management".
 
+#### Aiden Dinh's speech
+
+![Workshop photo 3](/images/3-EventParticipated/3.1-Event1/photo-3.jpg)
+
 ### Key Highlights
 
 - Problem: automate locker borrowing to reduce manual manager dependency.
@@ -129,3 +125,6 @@ pre: " <b> 4.1. </b> "
 ### Event Experience
 
 - A showcase-style talk: problem → mission → architecture → cost → demo — great inspiration for projects.
+
+# Summary Report: “GenAI-powered Cloud-Mastery 2026 workshop”
+> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.

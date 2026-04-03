@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# Banner Event
-
-![Banner Event](/images/3-EventParticipated/3.3-Event3/event3-banner.png)
 
 # Summary Report: "AWS re:Invent 2025 – Application Modernization & GenAI Insights"
 
@@ -95,8 +92,27 @@ pre: " <b> 4.3. </b> "
 - **Migration requires small, measured steps**: Avoid big-bang rewrites; use gradual migration with feature flags and canary deployments.
 - **AI/GenAI is architecture extension, not add-on**: Integrate AI thoughtfully into business process and system design, not as an afterthought.
 
-<!-- #### Some event photos
+#### Some event photos
 
-*Photos from the event venue, microservices/event-driven architecture sessions, networking booths, and team pictures.*
+**Figure 1: Event venue overview and opening session**
+![Event Overview](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_1.jpg)
 
-> Overall, the event reinforced the importance of modern architecture thinking, practical migration strategies, and the role of AWS services in enabling scalable, secure, and intelligent applications. -->
+**Figure 2: Microservices and event-driven architecture session**
+![Microservices Architecture](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_2.jpg)
+
+**Figure 3: Application modernization strategy discussion**
+![Modernization Strategy](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_3.jpg)
+
+**Figure 4: GenAI and AWS services demonstration**
+![GenAI Demo](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_4.jpg)
+
+**Figure 5: Networking and community engagement**
+![Networking Session](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_5.jpg)
+
+**Figure 6: AWS booth and technical consultation**
+![AWS Booth](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_6.jpg)
+
+**Figure 7: Team picture and closing remarks**
+![Team Picture](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_7.jpg)
+
+> Overall, the event reinforced the importance of modern architecture thinking, practical migration strategies, and the role of AWS services in enabling scalable, secure, and intelligent applications.

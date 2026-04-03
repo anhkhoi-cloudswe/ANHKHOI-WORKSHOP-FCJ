@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# Banner Event
-
-![Banner Event](/images/3-EventParticipated/3.3-Event3/event3-banner.png)
 
 # Bài thu hoạch "AWS re:Invent 2025 – Kiến trúc hiện đại hóa ứng dụng & GenAI"
 
@@ -95,8 +92,27 @@ pre: " <b> 4.3. </b> "
 - **Migration phải theo từng bước nhỏ có đo lường**: Tránh big‑bang rewrites; sử dụng gradual migration với feature flags và canary deployments.
 - **AI/GenAI là phần mở rộng của kiến trúc, không phải add‑on**: Tích hợp AI một cách có ý thức vào quy trình và thiết kế hệ thống, không phải suy nghĩ thêm sau.
 
-<!-- #### Một số hình ảnh khi tham gia sự kiện
+#### Một số hình ảnh khi tham gia sự kiện
 
-*Hình ảnh từ venue sự kiện, các session về microservices/event‑driven architecture, khu vực networking và booth AWS, và hình chụp với team.*
+**Figure 1: Toàn cảnh venue sự kiện và session khai mạc**
+![Event Overview](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_1.jpg)
 
-> Tổng thể, sự kiện nhấn mạnh tầm quan trọng của tư duy kiến trúc hiện đại, chiến lược migration thực tế, và vai trò của các dịch vụ AWS trong việc xây dựng các ứng dụng scalable, secure, và có khả năng trí tuệ nhân tạo. -->
+**Figure 2: Session về kiến trúc microservices và event-driven**
+![Microservices Architecture](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_2.jpg)
+
+**Figure 3: Thảo luận chiến lược hiện đại hóa ứng dụng**
+![Modernization Strategy](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_3.jpg)
+
+**Figure 4: Demo về GenAI và các dịch vụ AWS**
+![GenAI Demo](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_4.jpg)
+
+**Figure 5: Kết nối networking và tương tác cộng đồng**
+![Networking Session](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_5.jpg)
+
+**Figure 6: Booth AWS và tư vấn kỹ thuật**
+![AWS Booth](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_6.jpg)
+
+**Figure 7: Hình chụp đồng đội và bài phát biểu kết thúc**
+![Team Picture](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_7.jpg)
+
+> Tổng thể, sự kiện nhấn mạnh tầm quan trọng của tư duy kiến trúc hiện đại, chiến lược migration thực tế, và vai trò của các dịch vụ AWS trong việc xây dựng các ứng dụng scalable, secure, và có khả năng trí tuệ nhân tạo.

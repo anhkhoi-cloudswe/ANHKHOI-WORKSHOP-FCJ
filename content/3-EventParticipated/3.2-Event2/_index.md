@@ -6,6 +6,9 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
+# Banner Event
+
+![Banner Event](/images/3-EventParticipated/3.2-Event2/AWS_FCAJ_Community_Day.png)
 
 # Summary Report: "GenAI-powered Cloud-Mastery 2026 workshop"
 
@@ -19,11 +22,13 @@ pre: " <b> 4.2. </b> "
 
 ### Speakers
 
-- Speaker on **"Building Modern Platform Engineering & Career Pathways"** – sharing company culture, internship opportunities, and Platform Engineering's role in cloud/DevOps.
-- Speaker on **"GenAIOps Essential – DevOps for Generative AI Applications"** – focusing on DevOps on AWS and GenAIOps practices with Bedrock, AgentCore, EKS, Langfuse.
-- Speaker on **"Shipping Code in the Agentic Era"** – discussing challenges, tooling, deep-dive techniques, and productivity playbooks for software development in the agent era.
-- Speaker on **"Production‑Grade Multimodal GenAI on AWS"** – introducing the New AI Application Stack, Multimodal Search with Nova Embeddings, GraphRAG, Multi‑Agent Workflows, and Safe & Observable GenAI.
-- Speaker on **"From Edge To Origin: CloudFront as Your Foundation"** – presenting Amazon CloudFront for every workload, cost optimization, security, reliability, and edge performance.
+- **Hai Bui** – Engineering Manager, GoTymeX
+- **Phuc Dang** – Cloud Architect, GoTymeX
+- **Phap Nguyen** – Cloud Engineer, VPBank
+- **Phat Pham** – Software Engineer, Katalon
+- **Nghi Danh** – AI Engineer, Ronova Cloud
+- **Phong Nguyen** – Senior Software Engineer, Sympl
+- **Thinh Nguyen** – DevOps Engineer, First Cloud AI Journey (FCAJ)
 
 ### Key Highlights
 
@@ -86,10 +91,8 @@ Attending the **"GenAI-powered Cloud-Mastery 2026"** workshop was an invaluable 
 #### Lessons learned
 - Modern architecture design, platform modernization strategy, and how to operate GenAI/Cloud workloads securely and observably.  
 
-#### Some event photos
-
-![Banner Event](/images/3-EventParticipated/3.2-Event2/AWS_FCAJ_Community_Day.png)
+<!-- #### Some event photos
 
 *Check-in photos, sessions at Bitexco Financial Tower, and networking activities.*  
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration. -->

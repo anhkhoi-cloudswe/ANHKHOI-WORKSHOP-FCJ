@@ -11,7 +11,7 @@ During my internship, I participated in three events. Each one was a memorable e
 ### [Event 1](3.1-Event1/)  
 &emsp;**Event Name:** GenAI-powered Cloud-Mastery 2026 workshop
 
-&emsp;**Date & Time:** 09:00, March 14, 2025  
+&emsp;**Date & Time:** 09:00, March 14, 2026
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
@@ -22,7 +22,7 @@ During my internship, I participated in three events. Each one was a memorable e
 ### [Event 2](3.2-Event2/)  
 &emsp;**Event Name:** FCAJ Community Day  
 
-&emsp;**Date & Time:** 09:00, March 21, 2025  
+&emsp;**Date & Time:** 09:00, March 21, 2026  
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
@@ -33,7 +33,7 @@ During my internship, I participated in three events. Each one was a memorable e
 ### [Event 3](3.3-Event3/)  
 &emsp;**Event Name:** AWS re:Invent Recap HCMC  
 
-&emsp;**Date & Time:** 09:00, January 29, 2025  
+&emsp;**Date & Time:** 09:00, January 29, 2026
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 

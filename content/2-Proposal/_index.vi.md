@@ -41,7 +41,7 @@ Hệ thống bao phủ toàn bộ vòng đời của một sự kiện:
 ### 3. Kiến trúc giải pháp  
 Hệ thống tận dụng sức mạnh của các dịch vụ Managed Services trên AWS, kết hợp bảo mật sâu nhiều lớp và bất đồng bộ hóa các tác vụ trễ cao.
 
-![FPT Event Management Architecture](/My-First-Cloud-Journey/images/2-Proposal/fpt-event-management.jpg)
+![FPT Event Management Architecture](/images/2-Proposal/fpt-event-management.jpg)
 
 **Các dịch vụ AWS sử dụng**  
 - **Amazon Route 53 & CloudFront**: Dịch vụ DNS và CDN giúp phân phối nội dung Frontend tĩnh (lưu trữ trên **S3**) tới người dùng toàn cầu với độ trễ thấp nhất.

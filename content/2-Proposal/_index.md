@@ -36,7 +36,7 @@ The **FPT Event Management** system is designed to provide a comprehensive, high
 ### 3. Solution Architecture  
 The system harnesses AWS Managed Services alongside defense-in-depth networking layers and asynchronous event-handling to eliminate high-latency bottlenecks.
 
-![FPT Event Management Architecture](/My-First-Cloud-Journey/images/2-Proposal/fpt-event-management.jpg)
+![FPT Event Management Architecture](/images/2-Proposal/fpt-event-management.jpg)
 
 **Utilized AWS Services** - **Amazon Route 53 & CloudFront**: DNS routing alongside CDN distribution guarantees that static Frontend assets (hosted on **S3**) are globally cached and delivered with minimal latency.
 - **AWS WAF**: Web Application Firewall safeguarding against prevalent exploits (e.g., SQL Injection, XSS) and applying rigid Rate Limiting.

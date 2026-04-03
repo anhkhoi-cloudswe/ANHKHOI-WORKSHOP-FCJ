@@ -1,6 +1,6 @@
 ---
 title: "Event 3"
-date: 2024-01-01
+date: 2026-03-31
 weight: 1
 chapter: false
 pre: " <b> 4.3. </b> "
@@ -97,22 +97,22 @@ pre: " <b> 4.3. </b> "
 **Figure 1: Toàn cảnh venue sự kiện và session khai mạc**
 ![Event Overview](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_1.jpg)
 
-**Figure 2: Session về kiến trúc microservices và event-driven**
+**Figure 2: Check-in Session #1**
 ![Microservices Architecture](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_2.jpg)
 
-**Figure 3: Thảo luận chiến lược hiện đại hóa ứng dụng**
+**Figure 3: Check-in Session #2**
 ![Modernization Strategy](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_3.jpg)
 
-**Figure 4: Demo về GenAI và các dịch vụ AWS**
+**Figure 4: Giới thiệu các dịch vụ AWS: Bài phát biểu chính về Học máy/Trí tuệ nhân tạo & Đổi mới #1**
 ![GenAI Demo](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_4.jpg)
 
-**Figure 5: Kết nối networking và tương tác cộng đồng**
+**Figure 5: Giới thiệu các dịch vụ AWS: Bài phát biểu chính về Học máy/Trí tuệ nhân tạo & Đổi mới #2**
 ![Networking Session](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_5.jpg)
 
-**Figure 6: Booth AWS và tư vấn kỹ thuật**
+**Figure 6: Nụ cười ngày đầu năm – Sẵn sàng cho những thử thách và cột mốc mới tại AWS!**
 ![AWS Booth](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_6.jpg)
 
-**Figure 7: Hình chụp đồng đội và bài phát biểu kết thúc**
+**Figure 7: Hình chụp đồng đội và kết thúc buổi event**
 ![Team Picture](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_7.jpg)
 
 > Tổng thể, sự kiện nhấn mạnh tầm quan trọng của tư duy kiến trúc hiện đại, chiến lược migration thực tế, và vai trò của các dịch vụ AWS trong việc xây dựng các ứng dụng scalable, secure, và có khả năng trí tuệ nhân tạo.

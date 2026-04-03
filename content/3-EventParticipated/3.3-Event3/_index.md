@@ -1,6 +1,6 @@
 ---
 title: "Event 3"
-date: 2024-01-01
+date: 2026-03-31
 weight: 1
 chapter: false
 pre: " <b> 4.3. </b> "
@@ -97,19 +97,19 @@ pre: " <b> 4.3. </b> "
 **Figure 1: Event venue overview and opening session**
 ![Event Overview](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_1.jpg)
 
-**Figure 2: Microservices and event-driven architecture session**
+**Figure 2: Check-in Session #1**
 ![Microservices Architecture](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_2.jpg)
 
-**Figure 3: Application modernization strategy discussion**
+**Figure 3: Check-in Session #2**
 ![Modernization Strategy](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_3.jpg)
 
-**Figure 4: GenAI and AWS services demonstration**
+**Figure 4: Showcasing AWS Services: ML/AI & Innovation Keynote #1**
 ![GenAI Demo](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_4.jpg)
 
-**Figure 5: Networking and community engagement**
+**Figure 5: Showcasing AWS Services: ML/AI & Innovation Keynote #2**
 ![Networking Session](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_5.jpg)
 
-**Figure 6: AWS booth and technical consultation**
+**Figure 6: A New Year's smile – Ready for new challenges and milestones at AWS!**
 ![AWS Booth](/images/3-EventParticipated/3.3-Event3/reInvent_RECAP_6.jpg)
 
 **Figure 7: Team picture and closing remarks**

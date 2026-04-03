@@ -87,6 +87,9 @@ Attending the **"GenAI-powered Cloud-Mastery 2026"** workshop was an invaluable 
 - Modern architecture design, platform modernization strategy, and how to operate GenAI/Cloud workloads securely and observably.  
 
 #### Some event photos
+
+![Workshop photo 1](/images/3-EventParticipated/3.2-Event2/AWS_FCAJ Community Day.png)
+
 *Check-in photos, sessions at Bitexco Financial Tower, and networking activities.*  
 
 > Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.

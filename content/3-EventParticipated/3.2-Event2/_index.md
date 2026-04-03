@@ -14,11 +14,11 @@ pre: " <b> 4.2. </b> "
 
 ### Event Objectives
 
-- Identifying the drawbacks of legacy application architecture and traditional platform setups when migrating to cloud at scale (operations, flexibility, scalability).
-- Transitioning to modern application architecture – Microservices and modernizing platform building practices (Platform Engineering, GenAIOps, agentic tooling) for AWS environments.
-- Event-Driven Architecture: introducing system design centered around events with GenAI workflows, multi‑agent orchestration, observability, and edge services.
-- Compute Evolution: presenting the "edge to origin" stack, from Kubernetes/EKS, serverless, to specialized AI/ML services like Bedrock and Nova Embeddings.
-- Amazon Q Developer and other AI/Cloud services like Bedrock, CloudFront, Rekognition… used to increase productivity, security, and performance for modern applications.
+- Identifying the drawbacks of legacy application architecture and traditional approaches when deploying applications on cloud at scale.
+- Transitioning to modern application architecture – Microservices, Platform Engineering, and GenAIOps for modern applications on AWS.
+- Event-Driven Architecture for GenAI workflows, multi‑agent systems, observability, and edge services.
+- Compute Evolution: leveraging Kubernetes/EKS, serverless, and AI/ML services like Amazon Bedrock and Nova Embeddings for multimodal GenAI applications.
+- Utilizing modern tools like Amazon Q Developer, CloudFront, Langfuse, GraphRAG… to increase productivity, security, and performance.
 
 ### Speakers
 
@@ -34,59 +34,59 @@ pre: " <b> 4.2. </b> "
 
 #### Identifying the drawbacks of legacy application architecture
 
-- Difficult to scale, complex deployments, lacking observability, unsuitable for GenAI-driven workloads.
+- Difficult to scale, complex operations, lacking observability, unsuitable for GenAI workloads.
 
 #### Transitioning to modern application architecture – Microservices
 
-- Breaking down systems, combining Platform Engineering to standardize infrastructure for dev teams.
+- Platform Engineering to standardize infrastructure for dev teams.
 
-#### Event-Driven Architecture
+#### Event‑Driven Architecture
 
-- Sessions on GenAIOps, multi-agent workflows, GraphRAG, and observability for AI applications operating through event-driven flows.
+- GenAIOps, multi‑agent workflows, GraphRAG, observability for AI applications in production environments.
 
 #### Compute Evolution
 
-- Using EKS, serverless, Bedrock, Nova Embeddings, and other managed services to support production multimodal GenAI applications.
+- Combining EKS, serverless compute, Bedrock, Nova Embeddings, and managed services for multimodal GenAI.
 
 #### Amazon Q Developer & Modern Tools
 
-- Leveraging tools like Amazon Q Developer, Langfuse, CloudFront, Bedrock… to increase productivity in shipping code and operating systems.  
+- CloudFront, Langfuse, Bedrock… accelerate code shipping, improve developer experience, and operations.  
 
 ### Key Takeaways
 
 #### Design Mindset
 
-- **Platform-first, event-driven, and agentic thinking**: When designing new systems or modernizing legacy architectures.
+- **Platform-first, event-driven, and agentic**: Design systems toward microservices rather than traditional monolith architecture.
 
 #### Technical Architecture
 
-- **Understanding the modern AWS AI/Cloud stack**: From DevOps/GenAIOps, EKS, Bedrock, GraphRAG, multi-agent orchestration, to CloudFront at the edge layer.
+- **Modern AWS AI/Cloud architecture**: DevOps/GenAIOps, EKS, Bedrock, GraphRAG, multi-agent orchestration, CloudFront edge layer.
 
 #### Modernization Strategy
 
-- **Gradual transition** from legacy architecture to microservices/modern platform, leveraging GenAI, edge caching, and observability to meet new demands.  
+- **Gradual modernization**: Transition legacy systems to microservices and GenAI-ready architecture with observability and strong security.  
 
 ### Applying to Work
 
-- **Apply AWS DevOps fundamentals and GenAIOps practices** to GenAI projects: managing model lifecycle, deployment, monitoring with EKS, Bedrock, Langfuse.
-- **Design or refactor systems toward event-driven architecture**, use GraphRAG for enterprise knowledge and multi-agent workflows for complex processes.
-- **Optimize performance, cost, and security** of web/API applications by leveraging Amazon CloudFront as an edge layer for every workload.  
+- **Apply AWS DevOps Fundamentals and GenAIOps practices** for GenAI projects: CI/CD, monitoring, cost & security management.
+- **Refactor systems toward event‑driven architecture**: GraphRAG and multi‑agent workflows for complex business processes.
+- **Optimize performance, cost, and security** with Amazon CloudFront and edge services for web/API and GenAI applications.  
 
 ### Event Experience
 
 Attending the **"GenAI-powered Cloud-Mastery 2026"** workshop was an invaluable experience, providing comprehensive insights into building modern platforms and architecting GenAI applications on AWS. Key experiences included:
 
 #### Learning from highly skilled speakers
-- Experts in Platform Engineering, DevOps, GenAI, cloud, and edge technologies shared real-world experience and best practices.  
+- 7 speakers from GoTymeX, VPBank, Katalon, Ronova Cloud, Sympl, and FCAJ shared real-world experience on cloud, DevOps, and GenAI.
 
 #### Hands-on technical exposure
-- Dense agenda with technical sessions (GenAIOps, agentic era, multimodal GenAI, CloudFront) featuring concrete examples and live demos.  
+- Technical sessions: GenAIOps, shipping code in the agentic era, multimodal GenAI, CloudFront at the edge.
 
 #### Leveraging modern tools
-- Attendees gained hands-on experience with cutting-edge tools including Bedrock, Nova Embeddings, Langfuse, Amazon Q Developer, and CloudFront.  
+- Hands-on experience with Amazon Bedrock, Nova Embeddings, Amazon Q Developer, CloudFront, Langfuse, AgentCore, and more.
 
 #### Networking and discussions
-- Direct opportunities to engage with speakers, ask about career pathways, internship opportunities, and discuss real-world deployment experiences.  
+- Direct engagement with speakers on career pathways, internship opportunities, and real-world AWS challenges.
 
 #### Lessons learned
 - Modern architecture design, platform modernization strategy, and how to operate GenAI/Cloud workloads securely and observably.  

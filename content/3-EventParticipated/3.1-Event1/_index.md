@@ -6,6 +6,9 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
+### Banner Event
+
+![Banner Event](/images/3-EventParticipated/3.1-Event1/Cloud_Mastery_2026.jpg)
 
 ## 1. Building AI Agent with Strands (Banh Cam Vinh)
 

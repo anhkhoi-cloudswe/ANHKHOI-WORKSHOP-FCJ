@@ -88,7 +88,7 @@ Attending the **"GenAI-powered Cloud-Mastery 2026"** workshop was an invaluable 
 
 #### Some event photos
 
-![Workshop photo 1](/images/3-EventParticipated/3.2-Event2/AWS_FCAJ Community Day.png)
+![Banner Event](/images/3-EventParticipated/3.2-Event2/AWS_FCAJ_Community_Day.png)
 
 *Check-in photos, sessions at Bitexco Financial Tower, and networking activities.*  
 

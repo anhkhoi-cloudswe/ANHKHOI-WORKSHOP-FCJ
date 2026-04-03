@@ -1,14 +1,14 @@
 ---
 title: "Các events đã tham gia"
 date: 2026-03-31
-weight: 4
+weight: 3
 chapter: false
-pre: " <b> 4. </b> "
+pre: " <b> 3. </b> "
 ---
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
 
-### [Event 1](4.1-Event1/)
+### [Event 1](3.1-Event1/)
 &emsp;**Tên sự kiện:** GenAI-powered Cloud-Mastery 2026 workshop
 
 &emsp;**Thời gian:** 09:00 ngày 14/03/2026
@@ -30,7 +30,7 @@ Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là
 
 ---
 
-### [Event 3](4.3-Event3/)
+### [Event 3](3.3-Event3/)
 &emsp;**Tên sự kiện:** AWS re:Invent Recap HCMC
 
 &emsp;**Thời gian:** 09:00 ngày 29/01/2025

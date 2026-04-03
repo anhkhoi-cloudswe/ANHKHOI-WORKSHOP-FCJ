@@ -1,6 +1,6 @@
 ---
 title: "Internship Report"
-date: 2024-01-01
+date: 2026-03-31
 weight: 1
 chapter: false
 ---
@@ -28,7 +28,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 05/01/2026 to 05/04/2026
 
-![Your profile picture](/images/avatar.png)
+![Your profile picture](/images/AWS_Avatar.png)
 
 ### Report Content
 

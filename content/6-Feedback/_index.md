@@ -1,6 +1,6 @@
 ---
 title: "Sharing and Feedback"
-date: 2024-01-01
+date: 2026-03-31
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
@@ -9,24 +9,25 @@ pre: " <b> 6. </b> "
 ### Overall Evaluation
 
 **1. Working Environment**  
-What impressed me the most about the First Cloud Journey program was its extremely open and dynamic environment. When I first got my hands on AWS, I was utterly overwhelmed by the sheer scale of the services. However, thanks to a community that is always willing to share, no hurdle felt insurmountable. That said, I think the program could organize a few more open talk-shows or AMA (Ask Me Anything) sessions to help interns connect and interact more deeply.
+What impressed me most about this internship was the dynamic and collaborative environment surrounding microservices development. When I first dove into connecting Go backend services, React frontends, MySQL databases, and RabbitMQ message queues, I was genuinely overwhelmed by the complexity of distributed systems. However, a supportive community and open-minded mentorship made the journey manageable and even enjoyable. That said, I believe the team could benefit from organizing more structured **Peer Code Review sessions** where interns can learn optimal coding patterns and architectural thinking from one another. This would accelerate knowledge transfer and build stronger technical intuition across the team.
 
 **2. Support from Mentors & the Admin Team**  
-I deeply appreciate the effort put in by the mentors. Their way of mentoring wasn’t just handing over a code snippet to fix an error. Instead, they taught me how to analyze errors, read logs from CloudWatch, and truly understand the architecture. The admin team was also fantastic, always sending timely reminders and providing extremely useful reference materials for our labs.
+I'm deeply grateful to the mentors for their teaching approach. Rather than simply fixing bugs, they taught me how to think systematically about problems—analyzing logs to trace race conditions, understanding pessimistic locking mechanics, and making informed database design decisions. They didn't hand me solutions; they handed me frameworks for solving problems. The guidance on using `SELECT FOR UPDATE` to eliminate concurrency issues was particularly enlightening. The admin team also deserves credit for their timely coordination and clear documentation.
 
 **3. Relevance to My Major**  
-My major is Information Assurance (at FPT University), which requires a broad understanding of networks and systems. The entire 13-week curriculum—from VPC and IAM to WAF and security configurations on ECS—was perfectly tailored to complement my major. This practical knowledge will undoubtedly serve as a solid launchpad for my graduation project as well as my future career in Cloud Security/DevSecOps.
+My major is **Software Engineering at FPT University**, and this internship was a perfect alignment. Building a production-grade system with complete workflows—from authentication and authorization to payment processing and QR-based check-in—reinforced core SE principles like system design, trade-off analysis, and testing strategies. This hands-on experience is an invaluable foundation for my upcoming capstone project and future career building scalable backend systems.
 
 **4. Learning & Skill Development Opportunities**  
-The program forced me to become highly disciplined. Thirteen weeks is a long marathon, and without clear personal planning, missing deadlines is very easy. Moreover, getting early hands-on exposure to Amazon Bedrock and Generative AI is a massive plus that puts me ahead of the curve regarding current technological trends.
+These 13 weeks were a rigorous marathon requiring disciplined planning and execution. Beyond technical skills, I learned **Technical Decision Making**—a critical capability that separates junior developers from senior engineers. A prime example: I initially pursued WebSocket implementation for real-time updates but pivoted to a Cache Busting & Delay Refetch strategy when stability issues emerged. That decision taught me to balance feature ambition with system reliability. I also strengthened my ability to read technical documentation and debug through logs independently.
 
 **5. Company Culture & Team Spirit**  
-The spirit of "Pay It Forward" was very palpable. Even though everyone was busy with their own tasks, whenever someone posted an error in the group chat, multiple people would jump in to help. This culture truly connected everyone, even though the vast majority of our communication was strictly online.
+The collaborative spirit was palpable throughout. Whenever someone encountered a tricky bug in the shared Slack channel, colleagues would jump in to brainstorm. This collective problem-solving mindset accelerated learning for everyone and created a genuine sense of shared ownership in the project's success.
 
 ### Additional Thoughts
 
-- **What I found most satisfying:** The freedom to experiment in a real-world environment, learning through trial and error, and—above all—my visible transformation from a "cloud beginner" to someone who can confidently architect a complete serverless system.
-- **Advice for future interns:** Keep an open mind and embrace reading the documentation (especially AWS docs). Don't let silly issues with IAM permissions or VPC configurations discourage you. The payoff at the finish line is incredibly rewarding.
+- **What I found most satisfying:** My transformation from a developer writing isolated code snippets to someone capable of designing a distributed system that reliably runs on Docker with multiple microservices. Seeing the entire pipeline execute flawlessly—payments processed securely, check-ins registered instantly—was incredibly rewarding.
+- **Advice for future interns:** Embrace the complexity instead of fearing it. Read logs obsessively; they tell you exactly what's wrong. Don't chase the newest technology if it compromises stability. Your system's reliability matters more than its sophistication.
 
 ### Final Words
-The FCJ program gave me not just technical knowledge, but also a tremendous amount of confidence. I’d like to express my deepest gratitude to AWS Vietnam, the FCJ organizing team, and all the mentors who patiently guided me over the past three months. If given the opportunity, I will absolutely share these values and mentor the next cohort of interns!
+
+This internship equipped me with far more than technical knowledge—it instilled confidence in my ability to architect real-world systems. I'm profoundly grateful to all the mentors, team leads, and fellow interns who supported me throughout these 13 weeks. If given the opportunity, I'll enthusiastically mentor the next cohort and pass forward the knowledge and values this experience gave me.

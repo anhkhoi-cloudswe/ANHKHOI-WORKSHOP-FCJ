@@ -1,36 +1,36 @@
 ---
 title: "Self-Assessment"
-date: 2024-01-01
+date: 2026-03-31
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
 
-Looking back at the 13-week journey participating in the First Cloud Journey (FCJ) internship program at **Amazon Web Services Vietnam** from **January 5, 2026** to **April 5, 2026**, it has been an incredibly meaningful and challenging period. Starting from the very basics of AWS Cloud to deploying complex architectures with Containers, Serverless, and Generative AI (Amazon Bedrock), I have grown tremendously.
+Reflecting on the 13-week journey developing the **FPT Event Management system** from **January 5, 2026** to **April 5, 2026** has been a profound learning experience. This internship pushed me beyond basic backend development to designing and implementing production-grade microservices architecture using **Go, React, MySQL, RabbitMQ, and Docker**.
 
-By getting my hands dirty with building core services like VPC, EC2, Load Balancers, ECS, API Gateway, CloudFront, and notably the Bedrock Agent capstone project, I didn't just practice Cloud skills. I also deepened my understanding of system design thinking, troubleshooting, and self-researching documentation to solve problems.
+Through hands-on implementation of core features—from building robust payment processing pipelines with Double-Lock mechanisms to resolving critical race conditions using Pessimistic Locking (SELECT FOR UPDATE)—I've developed a deeper appreciation for system design trade-offs. More importantly, I learned to make pragmatic technical decisions: when WebSocket implementation proved unstable, I pivoted to Cache Busting & Delay Refetch strategies that achieved superior UX without compromising reliability.
 
-Most importantly, the open working environment and the enthusiastic support from the mentors have helped me cultivate a professional attitude, a sense of responsibility, and the ability to work independently.
+Beyond technical execution, the collaborative environment and mentorship have reinforced the importance of proactive problem-solving, rigorous documentation study, and effective teamwork in delivering quality software.
 
-To objectively reflect on my progress, I have evaluated myself against the following criteria:
+To objectively assess my growth as a backend engineer, I've evaluated myself across the following criteria:
 
 | No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | :----: | :----: | :-------: |
-| 1   | **Professional knowledge & skills** | Grasping AWS core services, applying them well in labs, proficient with Console & CLI | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Quickly catching up with new paradigms (especially GenAI and Bedrock), active researching | ✅    | ☐    | ☐       |
-| 3   | **Proactiveness**                   | Completing weekly tasks without reminders, actively trying to debug issues before asking for help | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Logging work consistently, pushing commits on time every single week                           | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Attending sync-ups punctually, strictly following the program's guidelines                       | ✅    | ☐    | ☐       |
-| 6   | **Progressive mindset**             | Open to mentor feedback, proactively improving from the smallest suggestions                     | ✅    | ☐    | ☐       |
-| 7   | **Communication**                   | Good interaction in the group channel, posing clear and concise questions when stuck             | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Sharing documents with peers, willing to help out other interns                         | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting organizational culture, polite communication, prompt replies                          | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Risk management in labs, analyzing logs to find root causes (e.g., IAM, VPC Endpoints)           | ☐    | ✅    | ☐       |
-| 11  | **Contribution**                    | Actively completing the final Bedrock Demo project with practical value                          | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | Very satisfied with the efforts and the results achieved over the last 3 months                  | ✅    | ☐    | ☐       |
+| 1   | **Backend engineering expertise** | Proficient in Go, MySQL query optimization, and designing resilient microservices with RabbitMQ | ✅    | ☐    | ☐       |
+| 2   | **Problem-solving mindset**                | Quickly learning concurrency patterns, database locking strategies, and making informed architectural trade-offs | ✅    | ☐    | ☐       |
+| 3   | **Proactiveness**                   | Self-initiating debugging of race conditions and stability issues, researching solutions without waiting for guidance | ✅    | ☐    | ☐       |
+| 4   | **Code quality & accountability**         | Consistently pushing well-tested commits, maintaining code reviews, and meeting sprint deadlines                           | ✅    | ☐    | ☐       |
+| 5   | **Technical discipline**                      | Following SOLID principles, applying design patterns, adhering to project conventions                       | ✅    | ☐    | ☐       |
+| 6   | **Continuous improvement**             | Acting on code review feedback, iterating on architectural decisions, seeking knowledge beyond comfort zone                     | ✅    | ☐    | ☐       |
+| 7   | **Technical communication**                   | Clearly explaining system design decisions, documenting complex logic, articulating trade-offs to the team             | ☐    | ✅    | ☐       |
+| 8   | **Collaboration**                        | Supporting teammates with code reviews, pair debugging sessions, and knowledge sharing                         | ✅    | ☐    | ☐       |
+| 9   | **Professional standards**            | Maintaining code cleanliness, respecting architecture guidelines, responding promptly to reviews                          | ✅    | ☐    | ☐       |
+| 10  | **Systems thinking**          | Analyzing performance bottlenecks through logs and metrics, designing solutions that scale                | ☐    | ✅    | ☐       |
+| 11  | **Project impact**                    | Delivering the Event Management system with production-ready features (payment processing, check-in system)                          | ✅    | ☐    | ☐       |
+| 12  | **Overall**                         | Proud of technical growth and the quality software delivered as a backend engineer                  | ✅    | ☐    | ☐       |
 
 ### Areas for Improvement
 
-* I need to further refine my English reading and comprehension skills to dive deeper into official AWS documentation and best-practice whitepapers.  
-* I want to enhance my security mindset during architecture design, as sometimes I prioritized "making it work" over "making it secure".
-* I should improve my public speaking and presentation skills to confidently explain architectural solutions and ideas to an audience.
+* **Cloud infrastructure proficiency**: Deepen knowledge of AWS ALB (Application Load Balancer) and Nginx reverse proxy configurations to implement robust WebSocket deployments in future projects.
+* **Security and testing balance**: Strengthen unit test coverage for complex security-critical flows (payment verification, check-in validation) without compromising development velocity.
+* **Technical communication**: Enhance ability to explain intricate concepts like race conditions and pessimistic locking to non-technical stakeholders and junior developers with greater clarity and simplicity.

@@ -46,6 +46,6 @@ During my internship, I participated in three events. Each one was a memorable e
 
 &emsp;**Date & Time:** 09:00, April 4, 2025
 
-&emsp;**Location:** 5th-floor lobby, 7 D1 Street, Long Thạnh Mỹ, Tăng Nhơn Phú, Ho Chi Minh City 700000
+&emsp;**Location:** 5th-floor lobby, 7 D1 Street, Long Thạnh Mỹ, Tăng Nhơn Phú, Ho Chi Minh City
 
 &emsp;**Role:** Attendee

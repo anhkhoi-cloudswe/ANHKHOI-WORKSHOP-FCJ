@@ -46,6 +46,6 @@ Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là
 
 &emsp;**Thời gian:** 09:00 ngày 04/04/2025
 
-&emsp;**Địa điểm:** Sảnh lầu 5, 7 Đ. D1, Long Thạnh Mỹ, Tăng Nhơn Phú, Hồ Chí Minh 700000
+&emsp;**Địa điểm:** Sảnh lầu 5, 7 Đ. D1, Long Thạnh Mỹ, Tăng Nhơn Phú, Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự

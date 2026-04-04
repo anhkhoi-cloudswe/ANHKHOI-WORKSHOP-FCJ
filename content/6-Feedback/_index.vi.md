@@ -9,7 +9,7 @@ pre: " <b> 6. </b> "
 ### Đánh giá chung
 
 **1. Môi trường làm việc**  
-Điều ấn tượng nhất với mình là một môi trường cực kỳ năng động khi phát triển kiến trúc microservices. Lúc đầu, khi phải kết nối backend Go, frontend React, database MySQL, và message queue RabbitMQ, mình thật sự bị choáng ngợp bởi độ phức tạp của hệ thống phân tán. Tuy nhiên, một cộng đồng hỗ trợ nhiệt tình và sự hướng dẫn kỷ luật của các mentor đã giúp mình vượt qua. Một gợi ý cho các bạn: mình rất mong muốn có thêm các buổi **Peer Code Review** có tổ chức, nơi mà các bạn thực tập sinh có thể học hỏi các mẫu code tối ưu và tư duy kiến trúc từ nhau—điều này sẽ giúp gia tăng quá trình truyền đạt kiến thức.
+Điều ấn tượng nhất với mình là một môi trường cực kỳ năng động khi phát triển kiến trúc microservices. Lúc đầu, khi phải kết nối backend Go, frontend React, và database MySQL, mình thật sự bị choáng ngợp bởi độ phức tạp của hệ thống phân tán. Tuy nhiên, một cộng đồng hỗ trợ nhiệt tình và sự hướng dẫn kỷ luật của các mentor đã giúp mình vượt qua. Một gợi ý cho các bạn: mình rất mong muốn có thêm các buổi **Peer Code Review** có tổ chức, nơi mà các bạn thực tập sinh có thể học hỏi các mẫu code tối ưu và tư duy kiến trúc từ nhau—điều này sẽ giúp gia tăng quá trình truyền đạt kiến thức.
 
 **2. Sự hỗ trợ của mentor / team admin**  
 Mình thật sự rất trân trọng cách hướng dẫn của các mentor. Thay vì chỉ sửa lỗi, các anh chị đã dạy mình cách tư duy có hệ thống về vấn đề—phân tích log để tìm ra race condition, hiểu rõ ý tưởng pessimistic locking, và đưa ra quyết định thiết kế database hợp lý. Hướng dẫn của các mentor về cách dùng `SELECT FOR UPDATE` để triệt tiêu vấn đề concurrency đặc biệt là sáng tỏ. Team admin cũng xứng đáng được khen ngợi vì phối hợp kịp thời và tài liệu rõ ràng.

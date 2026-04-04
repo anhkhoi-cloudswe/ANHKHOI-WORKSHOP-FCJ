@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-Nhìn lại hành trình 13 tuần phát triển hệ thống **FPT Event Management** từ ngày **05/01/2026** đến **05/04/2026** đã mang lại cho mình một kinh nghiệm học tập sâu sắc. Thực tập này đã đẩy mình vượt ra ngoài những kỹ năng backend cơ bản để thiết kế và triển khai kiến trúc microservices chuẩn sản phẩm sử dụng **Go, React, MySQL, RabbitMQ, và Docker**.
+Nhìn lại hành trình 13 tuần phát triển hệ thống **FPT Event Management** từ ngày **05/01/2026** đến **05/04/2026** đã mang lại cho mình một kinh nghiệm học tập sâu sắc. Thực tập này đã đẩy mình vượt ra ngoài những kỹ năng backend cơ bản để thiết kế và triển khai kiến trúc microservices chuẩn sản phẩm sử dụng **Go, React, MySQL, và Docker**.
 
 Thông qua quá trình triển khai trực tiếp các tính năng cốt lõi—từ xây dựng hệ thống thanh toán vững chắc với cơ chế Double-Lock cho đến giải quyết hoàn toàn lỗi race condition bằng kỹ thuật Pessimistic Locking (SELECT FOR UPDATE)—mình đã phát triển một sự hiểu biết sâu sắc hơn về các cân nhắc trong thiết kế hệ thống. Quan trọng hơn, mình học được cách ra quyết định thực tế: khi triển khai WebSocket gặp vấn đề ổn định, mình đã nhanh chóng chuyển hướng sang giải pháp Cache Busting & Delay Refetch đạt được trải nghiệm người dùng tốt hơn mà vẫn giữ được độ tin cậy.
 
@@ -16,7 +16,7 @@ Beyond technical execution, the collaborative environment and mentorship have re
 
 | STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | :---: | :---: | :----------: |
-| 1   | **Kiến thức và kỹ năng Backend** | Thành thạo Go, tối ưu hóa truy vấn MySQL, thiết kế microservices vững chắc với RabbitMQ | ✅   | ☐   | ☐          |
+| 1   | **Kiến thức và kỹ năng Backend** | Thành thạo Go, tối ưu hóa truy vấn MySQL, thiết kế microservices vững chắc | ✅   | ☐   | ☐          |
 | 2   | **Tư duy giải quyết vấn đề**                | Nhanh chóp bắt nhịp các mô hình concurrency, chiến lược locking database, và đưa ra quyết định kiến trúc thông minh | ✅   | ☐   | ☐          |
 | 3   | **Tính chủ động**                        | Tự mình debug lỗi race condition và các vấn đề ổn định, nghiên cứu giải pháp mà không chờ hướng dẫn | ✅   | ☐   | ☐          |
 | 4   | **Chất lượng code và trách nhiệm**           | Commit code được kiểm thử kỹ lưỡng, thực hiện code review đầy đủ, và hoàn thành deadline sprintĐúng | ✅   | ☐   | ☐          |

@@ -19,18 +19,6 @@ During my internship, I participated in three events. Each one was a memorable e
 
 ---
 
-### [Event 4](3.4-Event4/)  
-&emsp;**Event Name:** Devops Cloud-Mastery-Series 2026 workshop
-
-&emsp;**Date & Time:** 09:00, April 4, 2025
-
-&emsp;**Location:** 5th-floor lobby, 7 D1 Street, Long Thạnh Mỹ, Tăng Nhơn Phú, Ho Chi Minh City 700000
-
-&emsp;**Role:** Attendee
-
-
----
-
 ### [Event 2](3.2-Event2/)  
 &emsp;**Event Name:** FCAJ Community Day  
 
@@ -49,4 +37,15 @@ During my internship, I participated in three events. Each one was a memorable e
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
-&emsp;**Role:** Attendee  
+&emsp;**Role:** Attendee
+
+---
+
+### [Event 4](3.4-Event4/)  
+&emsp;**Event Name:** Devops Cloud-Mastery-Series 2026 workshop
+
+&emsp;**Date & Time:** 09:00, April 4, 2025
+
+&emsp;**Location:** 5th-floor lobby, 7 D1 Street, Long Thạnh Mỹ, Tăng Nhơn Phú, Ho Chi Minh City 700000
+
+&emsp;**Role:** Attendee

@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-Reflecting on the 13-week journey developing the **FPT Event Management system** from **January 5, 2026** to **April 5, 2026** has been a profound learning experience. This internship pushed me beyond basic backend development to designing and implementing production-grade microservices architecture using **Go, React, MySQL, RabbitMQ, and Docker**.
+Reflecting on the 13-week journey developing the **FPT Event Management system** from **January 5, 2026** to **April 5, 2026** has been a profound learning experience. This internship pushed me beyond basic backend development to designing and implementing production-grade microservices architecture using **Go, React, MySQL, and Docker**.
 
 Through hands-on implementation of core features—from building robust payment processing pipelines with Double-Lock mechanisms to resolving critical race conditions using Pessimistic Locking (SELECT FOR UPDATE)—I've developed a deeper appreciation for system design trade-offs. More importantly, I learned to make pragmatic technical decisions: when WebSocket implementation proved unstable, I pivoted to Cache Busting & Delay Refetch strategies that achieved superior UX without compromising reliability.
 
@@ -16,7 +16,7 @@ To objectively assess my growth as a backend engineer, I've evaluated myself acr
 
 | No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | :----: | :----: | :-------: |
-| 1   | **Backend engineering expertise** | Proficient in Go, MySQL query optimization, and designing resilient microservices with RabbitMQ | ✅    | ☐    | ☐       |
+| 1   | **Backend engineering expertise** | Proficient in Go, MySQL query optimization, and designing resilient microservices | ✅    | ☐    | ☐       |
 | 2   | **Problem-solving mindset**                | Quickly learning concurrency patterns, database locking strategies, and making informed architectural trade-offs | ✅    | ☐    | ☐       |
 | 3   | **Proactiveness**                   | Self-initiating debugging of race conditions and stability issues, researching solutions without waiting for guidance | ✅    | ☐    | ☐       |
 | 4   | **Code quality & accountability**         | Consistently pushing well-tested commits, maintaining code reviews, and meeting sprint deadlines                           | ✅    | ☐    | ☐       |

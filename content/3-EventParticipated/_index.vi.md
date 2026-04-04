@@ -9,7 +9,7 @@ pre: " <b> 3. </b> "
 Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
 
 ### [Event 1](3.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered Cloud-Mastery 2026 workshop
+&emsp;**Tên sự kiện:** GenAI-powered Cloud-Mastery-Series 2026 workshop
 
 &emsp;**Thời gian:** 09:00 ngày 14/03/2026
 
@@ -39,3 +39,13 @@ Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
 
+---
+
+### [Event 4](3.4-Event4/)
+&emsp;**Tên sự kiện:** Devops Cloud-Mastery-Series 2026 workshop
+
+&emsp;**Thời gian:** 09:00 ngày 04/04/2025
+
+&emsp;**Địa điểm:** Sảnh lầu 5, 7 Đ. D1, Long Thạnh Mỹ, Tăng Nhơn Phú, Hồ Chí Minh 700000
+
+&emsp;**Vai trò trong sự kiện:** Người tham dự
